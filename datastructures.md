@@ -45,6 +45,6 @@ A `PlatformInfo` is determined from the platform's YAML config file. A `Platform
 ##EmulatorInfo
 An `EmulatorInfo` is read from an emulator's YAML config file. An `EmulatorInfo` object has the following attributes. 
 
-* `emulator_name` is the name of the emulator. The YAML file should be named this value. 
-* `emulator_path` is the path of the emulator's main executable.
-* `emulator_config` is the path of the emulator's main configuration file. 
+* `name` is the name of the emulator. The YAML file should be named this value. 
+* `exectuable` is the path of the emulator's main executable.
+* `config` is the path of the emulator's main configuration file. 
